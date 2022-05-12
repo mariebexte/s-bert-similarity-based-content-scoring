@@ -1,0 +1,10 @@
+pandas==1.2.1
+scipy
+torch
+scikit-learn
+nltk
+transformers
+wheel
+imblearn
+SoMaJo
+tables
