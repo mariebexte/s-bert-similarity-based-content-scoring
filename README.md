@@ -1,4 +1,4 @@
-# Similarity-based Content Scoring -</br>How to Make S-BERT Keep up with BERT
+# Similarity-Based Content Scoring -</br>How to Make S-BERT Keep Up With BERT
 
 This is the code to our 2022 BEA paper for similarity-based scoring of the ASAP short answer scoring data. See below for a graphical overview of the approach. We first learn a model based on the similarities between S-BERT embeddings of a set of reference answers (left part of the image). During inference (right part of the image), the answers to score are compared to these reference answers, assigning the score for which the set of reference answers gives the highest average similiarity.
 
@@ -17,7 +17,7 @@ Make sure to unzip `data/full_data.zip` before running the full data setting.
 
 ```
 @InProceedings{bexte2022,
-  title     = {Similarity-based Content Scoring - How to Make S-BERT Keep up with BERT},
+  title     = {Similarity-Based Content Scoring - How to Make S-BERT Keep Up With BERT},
   author    = {Bexte, Marie and Horbach, Andrea and Zesch, Torsten},
   booktitle = {Proceedings of The 17th Workshop on Innovative Use of NLP for Building Educational Applications},
   year      = {2022}
